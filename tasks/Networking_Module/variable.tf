@@ -40,7 +40,7 @@ variable "out_sg_port" {
 }
 variable "pubin_sg_port" {
   type        = string
-  default     = 0
+  default     = 22
   description = "enter private sg inbound port"
 }
 variable "pubout_sg_port" {
