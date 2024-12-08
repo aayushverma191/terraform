@@ -1,12 +1,12 @@
 variable ami_id {
   type        = string
   default     = "ami-0e2c8caa4b6378d8c"
-  description = "description"
+  description = "enter AMI of the os/instnace"
 }
 variable instance_type {
   type        = string
   default     = "t2.micro"
-  description = "description"
+  description = "enter the type of instance"
 }
 variable pub_subnet_id {
   type        = string
