@@ -22,6 +22,7 @@ module "compute_module" {
   source = "./compute_infra"
   ami_id = var.ami-id
   instance_type = var.instance-type
+  key_name = var.key-name
   pub_instance_name = var.pub-instance-name
   pvt_instance1_name = var.pvt-instance1-name
   pvt_instance2_name = var.pvt-instance2-name
