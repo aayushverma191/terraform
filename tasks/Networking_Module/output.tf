@@ -20,11 +20,11 @@ output "pvt_subnet2" {
 }
 output "pub_route-table" {
   value       = module.task2.pub_route-table
-  description = "print ID of public route table"
+  description = "print ID of pvt-subnet2"
 }
 output "pvt_route-table" {
   value       = module.task2.pvt_route-table
-  description = "print ID of private route table"
+  description = "print ID of pvt-subnet2"
 }
 output "public-sg" {
   value       = module.security_module.public-sg
@@ -36,11 +36,11 @@ output "private-sg" {
 }
 output "pub-instance-id" {
   value       = module.instance_module.pub-instance-id
-  description = "print public instance id"
+  description = "description"
 }
 output "pvt-instance-id" {
   value       = module.instance_module.pvt-instance-id
-  description = "print private instance id"
+  description = "description"
 }
 output "instance_public_ip" {
   description = "Public IP address of the EC2 instance"
