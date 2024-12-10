@@ -50,7 +50,7 @@ variable "pubout_sg_port" {
 }
 variable "traffic_protocol" {
   type        = string
-  default     = "tcp"
+  default     = "-1"
   description = "enter the portocol for all traffic "
 }
 variable "protocol_tcp" {
@@ -61,20 +61,20 @@ variable "protocol_tcp" {
 variable "ami_id_instance" {
   type        = string
   default     = "ami-0e2c8caa4b6378d8c"
-  description = "enter the AMI id of instance"
+  description = "description"
 }
 variable "insta_type" {
   type        = string
   default     = "t2.micro"
-  description = "enter the type of instance"
+  description = "description"
 }
 variable "public_name_instance" {
   type        = string
   default     = "public-instance"
-  description = "enter public instance name"
+  description = "description"
 }
 variable "private_name_instance" {
   type        = string
   default     = "private-instance"
-  description = "enter private instance name"
+  description = "description"
 }
