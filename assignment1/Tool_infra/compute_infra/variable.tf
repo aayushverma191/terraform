@@ -38,3 +38,8 @@ variable "pvt_subnet1_id" {
 variable "pvt_subnet2_id" {
   type = string
 }
+variable key_name {
+  type        = string
+  default     = "nvirinia"
+  description = "enter key pair name"
+}
