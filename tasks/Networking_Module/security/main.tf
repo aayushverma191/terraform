@@ -5,7 +5,7 @@ resource "aws_security_group" "public_sg" {
   ingress {
     from_port   = var.pub_in_sg_port
     to_port     = var.pub_in_sg_port
-    protocol    = var.all_traffic_protocol
+    protocol    = var.tcp_protocol
     cidr_blocks = ["0.0.0.0/0"]
   }
 
