@@ -73,3 +73,8 @@ variable pvt-instance2-name {
   default     = "database_server2"
   description = "description"
 }
+variable key-name {
+  type        = string
+  default     = "nvirinia"
+  description = "enter key pair name"
+}
