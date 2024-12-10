@@ -21,4 +21,5 @@ resource "aws_instance" "private_instance" {
   tags = {
     Name = var.pvt_instance_name
   }
+
 }
