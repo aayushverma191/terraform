@@ -92,7 +92,7 @@ resource "aws_route_table" "private_RT" {
     gateway_id = aws_nat_gateway.NAT.id
   }
   tags = {
-    Name = "public_RouteTable"
+    Name = "private_RouteTable"
   }
 }
 
